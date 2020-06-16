@@ -1,22 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="flex justify-between py-5">
-      <Link class=" mx-2" to="/">
+    <div class="flex justify-between py-5 m64">
+      <a style={{ fontFamily: "cursive", fontSize: "1.8rem" }} to="/">
         Justin Andrade
-      </Link>
+      </a>
       <nav class="flex">
-        <Link class=" mx-2 text-gray-600" to="/about">
+        <a class=" mx-2 text-gray-600" href="#about">
           About
-        </Link>
-        <Link class=" mx-2 text-gray-600" to="/projects">
+        </a>
+        <a class=" mx-2 text-gray-600" to="/projects">
           Projects
-        </Link>
-        <Link class=" mx-2 text-gray-600" to="/contact">
+        </a>
+        <a class=" mx-2 text-gray-600" to="/contact">
           Contact
-        </Link>
+        </a>
       </nav>
     </div>
   );

@@ -14,7 +14,8 @@ function App() {
 
         {/* Router switch to define routes */}
         <Switch>
-          <Route path="/about">
+          <Route path="/">
+            <Home />
             <About />
           </Route>
           <Route path="/projects">
@@ -22,9 +23,6 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
           </Route>
         </Switch>
       </div>
