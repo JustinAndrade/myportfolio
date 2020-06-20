@@ -5,16 +5,16 @@ const About = () => {
   return (
     <section
       id="about"
-      class="flex flex-col md:flex-col lg:flex-row pt-0 md:pt-10 lg:pt-10 "
+      class="flex flex-col md:flex-col px-8 xlg:px-0 lg:flex-row pt-0 md:pt-10 lg:pt-10"
     >
       <div class="sm:w-100 lg:w-1/2 mb-4">
         <img src={vector} alt="work setup vector drawing" />
       </div>
       <div class="sm:w-100 lg:w-1/2 text-left sm:text-center p-4 md:p-2">
-        <h2 class="border-b-8 border-blue-500 text-3xl md:text-5xl inline">
+        <h2 class="border-b-8 border-blue-500 text-2xl sm:text-4xl xl:text-5xl inline">
           About me &amp; What I do
         </h2>
-        <p class="my-8">
+        <p class="my-8 text-sm md:text-base">
           I currently reside in Boston, Massachusetts. I'm a team player who
           understands the importance of communication and succeeding as a team.
           My goal-oriented mindset allows me to prioritize tasks and develop a

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar";
-import { Home, About, Contact, Projects } from "./pages";
+import { Home, About, Contact, Projects, Recommendations } from "./pages";
 
 import "./App.css";
 
@@ -18,6 +18,7 @@ function App() {
             <Home />
             <About />
             <Projects />
+            <Recommendations />
           </Route>
         </Switch>
       </div>

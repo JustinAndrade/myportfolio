@@ -18,24 +18,24 @@ const Projects = () => {
               src="http://juscoding.com/images/legendoflambda.jpg"
             />
             <div class="px-6 py-4">
-              <div class="flex justify-around items-center">
+              <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-0">
                 <a
                   href="https://mypropsplus.com/"
                   target="_blank"
-                  class="block text-blue-500  font-bold text-3xl mb-2 hover:opacity-75"
+                  class="block text-blue-500  font-bold text-2xl xl:text-3xl mb-2 hover:opacity-75"
                 >
                   MyPropsPlus
                 </a>
                 <a
                   href="https://github.com/props-plus"
                   target="_blank"
-                  class="rounded bg-red-500 text-gray-200 font-bold mt-1 px-2 h-6 hover:opacity-75"
+                  class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                 >
                   See the Code
                 </a>
               </div>
-              <p class="text-gray-700 text-base">
-                <ul class="list-disc px-8">
+              <p class="text-gray-700">
+                <ul class="list-disc px-8 text-xs md:text-base">
                   <li>
                     Collaborated on front end functionality, and implemented
                     styling design.
@@ -47,22 +47,22 @@ const Projects = () => {
             </div>
 
             <div class="px-6 py-4">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #SASS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Python
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #ReactJS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #TypeScript
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Django
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Redux
               </span>
             </div>
@@ -76,24 +76,24 @@ const Projects = () => {
               src="http://juscoding.com/images/legendoflambda.jpg"
             />
             <div class="px-6 py-4">
-              <div class="flex justify-around items-center">
+              <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-0">
                 <a
                   href="https://mypropsplus.com/"
                   target="_blank"
-                  class="block text-blue-500  font-bold text-3xl mb-2 hover:opacity-75"
+                  class="block text-blue-500  font-bold text-2xl xl:text-3xl mb-2 hover:opacity-75"
                 >
                   MyPropsPlus
                 </a>
                 <a
                   href="https://github.com/props-plus"
                   target="_blank"
-                  class="rounded bg-red-500 text-gray-200 font-bold mt-1 px-2 h-6 hover:opacity-75"
+                  class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                 >
                   See the Code
                 </a>
               </div>
-              <p class="text-gray-700 text-base">
-                <ul class="list-disc px-8">
+              <p class="text-gray-700">
+                <ul class="list-disc px-8 text-xs md:text-base">
                   <li>
                     Collaborated on front end functionality, and implemented
                     styling design.
@@ -105,22 +105,22 @@ const Projects = () => {
             </div>
 
             <div class="px-6 py-4">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #SASS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Python
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #ReactJS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #TypeScript
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Django
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Redux
               </span>
             </div>
@@ -134,24 +134,24 @@ const Projects = () => {
               src="http://juscoding.com/images/legendoflambda.jpg"
             />
             <div class="px-6 py-4">
-              <div class="flex justify-around items-center">
+              <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-0">
                 <a
                   href="https://mypropsplus.com/"
                   target="_blank"
-                  class="block text-blue-500  font-bold text-3xl mb-2 hover:opacity-75"
+                  class="block text-blue-500  font-bold text-2xl xl:text-3xl mb-2 hover:opacity-75"
                 >
                   MyPropsPlus
                 </a>
                 <a
                   href="https://github.com/props-plus"
                   target="_blank"
-                  class="rounded bg-red-500 text-gray-200 font-bold mt-1 px-2 h-6 hover:opacity-75"
+                  class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                 >
                   See the Code
                 </a>
               </div>
-              <p class="text-gray-700 text-base">
-                <ul class="list-disc px-8">
+              <p class="text-gray-700">
+                <ul class="list-disc px-8 text-xs md:text-base">
                   <li>
                     Collaborated on front end functionality, and implemented
                     styling design.
@@ -163,22 +163,22 @@ const Projects = () => {
             </div>
 
             <div class="px-6 py-4">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #SASS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Python
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #ReactJS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #TypeScript
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Django
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Redux
               </span>
             </div>
@@ -192,24 +192,24 @@ const Projects = () => {
               src="http://juscoding.com/images/legendoflambda.jpg"
             />
             <div class="px-6 py-4">
-              <div class="flex justify-around items-center">
+              <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-0">
                 <a
                   href="https://mypropsplus.com/"
                   target="_blank"
-                  class="block text-blue-500  font-bold text-3xl mb-2 hover:opacity-75"
+                  class="block text-blue-500  font-bold text-2xl xl:text-3xl mb-2 hover:opacity-75"
                 >
                   MyPropsPlus
                 </a>
                 <a
                   href="https://github.com/props-plus"
                   target="_blank"
-                  class="rounded bg-red-500 text-gray-200 font-bold mt-1 px-2 h-6 hover:opacity-75"
+                  class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                 >
                   See the Code
                 </a>
               </div>
-              <p class="text-gray-700 text-base">
-                <ul class="list-disc px-8">
+              <p class="text-gray-700">
+                <ul class="list-disc px-8 text-xs md:text-base">
                   <li>
                     Collaborated on front end functionality, and implemented
                     styling design.
@@ -221,22 +221,22 @@ const Projects = () => {
             </div>
 
             <div class="px-6 py-4">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #SASS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Python
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #ReactJS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #TypeScript
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Django
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Redux
               </span>
             </div>
@@ -250,24 +250,24 @@ const Projects = () => {
               src="http://juscoding.com/images/legendoflambda.jpg"
             />
             <div class="px-6 py-4">
-              <div class="flex justify-around items-center">
+              <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-0">
                 <a
                   href="https://mypropsplus.com/"
                   target="_blank"
-                  class="block text-blue-500  font-bold text-3xl mb-2 hover:opacity-75"
+                  class="block text-blue-500  font-bold text-2xl xl:text-3xl mb-2 hover:opacity-75"
                 >
                   MyPropsPlus
                 </a>
                 <a
                   href="https://github.com/props-plus"
                   target="_blank"
-                  class="rounded bg-red-500 text-gray-200 font-bold mt-1 px-2 h-6 hover:opacity-75"
+                  class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                 >
                   See the Code
                 </a>
               </div>
-              <p class="text-gray-700 text-base">
-                <ul class="list-disc px-8">
+              <p class="text-gray-700">
+                <ul class="list-disc px-8 text-xs md:text-base">
                   <li>
                     Collaborated on front end functionality, and implemented
                     styling design.
@@ -279,22 +279,22 @@ const Projects = () => {
             </div>
 
             <div class="px-6 py-4">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #SASS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Python
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #ReactJS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #TypeScript
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Django
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Redux
               </span>
             </div>
@@ -308,24 +308,24 @@ const Projects = () => {
               src="http://juscoding.com/images/legendoflambda.jpg"
             />
             <div class="px-6 py-4">
-              <div class="flex justify-around items-center">
+              <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-0">
                 <a
                   href="https://mypropsplus.com/"
                   target="_blank"
-                  class="block text-blue-500  font-bold text-3xl mb-2 hover:opacity-75"
+                  class="block text-blue-500  font-bold text-2xl xl:text-3xl mb-2 hover:opacity-75"
                 >
                   MyPropsPlus
                 </a>
                 <a
                   href="https://github.com/props-plus"
                   target="_blank"
-                  class="rounded bg-red-500 text-gray-200 font-bold mt-1 px-2 h-6 hover:opacity-75"
+                  class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                 >
                   See the Code
                 </a>
               </div>
-              <p class="text-gray-700 text-base">
-                <ul class="list-disc px-8">
+              <p class="text-gray-700">
+                <ul class="list-disc px-8 text-xs md:text-base">
                   <li>
                     Collaborated on front end functionality, and implemented
                     styling design.
@@ -337,22 +337,22 @@ const Projects = () => {
             </div>
 
             <div class="px-6 py-4">
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #SASS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Python
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #ReactJS
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #TypeScript
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Django
               </span>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                 #Redux
               </span>
             </div>
