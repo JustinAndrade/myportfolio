@@ -3,12 +3,15 @@ import vector from "../assets/img/coding-vector.png";
 
 const About = () => {
   return (
-    <section class="flex p-24 mt-24">
-      <div class="w-1/2 mb-64">
+    <section
+      id="about"
+      class="flex flex-col md:flex-col lg:flex-row pt-0 md:pt-10 lg:pt-10 "
+    >
+      <div class="sm:w-100 lg:w-1/2 mb-4">
         <img src={vector} alt="work setup vector drawing" />
       </div>
-      <div class="w-1/2 text-left">
-        <h2 class="border-b-8 border-blue-500 text-5xl inline">
+      <div class="sm:w-100 lg:w-1/2 text-left sm:text-center p-4 md:p-2">
+        <h2 class="border-b-8 border-blue-500 text-3xl md:text-5xl inline">
           About me &amp; What I do
         </h2>
         <p class="my-8">

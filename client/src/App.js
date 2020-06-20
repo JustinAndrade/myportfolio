@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" class="container mx-auto">
         <Navbar />
 
         {/* Router switch to define routes */}
@@ -17,12 +17,7 @@ function App() {
           <Route path="/">
             <Home />
             <About />
-          </Route>
-          <Route path="/projects">
             <Projects />
-          </Route>
-          <Route path="/contact">
-            <Contact />
           </Route>
         </Switch>
       </div>
