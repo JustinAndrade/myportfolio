@@ -14,10 +14,14 @@ const Contact = () => {
       </p>
       <div class="flex flex-col lg:flex-row md:flex-row w-full justify-between text-gray-800 mb-8 mt-8">
         <div class="flex flex-col w-1/2 text-base lg:text-xl leading-loose py-12">
-          <a href="mailto:j.andrade.john@gmail.com" target="_blank">
+          <a
+            href="mailto:j.andrade.john@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             j.andrade.john@gmail.com
           </a>
-          <a href="tel:5088587966" target="_blank">
+          <a href="tel:5088587966" target="_blank" rel="noopener noreferrer">
             508-858-7966
           </a>
           <p>Boston, Massachusetts</p>

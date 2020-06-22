@@ -27,6 +27,7 @@ const Projects = () => {
                   <a
                     href="https://mypropsplus.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="block text-blue-500  font-bold text-2xl  mb-2 hover:opacity-75"
                   >
                     MyPropsPlus
@@ -34,6 +35,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/props-plus"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                   >
                     See the Code
@@ -89,6 +91,7 @@ const Projects = () => {
                   <a
                     href="https://thebookr.netlify.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="block text-blue-500  font-bold text-2xl  mb-2 hover:opacity-75"
                   >
                     Bookr
@@ -96,6 +99,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/the-bookr-team"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                   >
                     See the Code
@@ -153,6 +157,7 @@ const Projects = () => {
                   <a
                     href="https://legend-of-lambda.netlify.app/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="block text-blue-500  font-bold text-2xl  mb-2 hover:opacity-75"
                   >
                     Legend of Lambda
@@ -160,6 +165,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/LegendOfLambda"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="rounded bg-red-500 text-xs xl:text-md text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75"
                   >
                     See the Code

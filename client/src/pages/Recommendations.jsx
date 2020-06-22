@@ -55,6 +55,7 @@ const Recommendations = () => {
                 <a
                   href={rec.linkedin}
                   target="_blank"
+                  rel="noopener noreferrer"
                   class="text-blue-500 font-semibold mx-4 text-xl"
                 >
                   {rec.name}
