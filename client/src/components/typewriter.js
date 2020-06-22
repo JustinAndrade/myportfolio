@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 const TypeWriter = () => {
-  return <a class="typewrite"></a>;
+  return <p class="typewrite"></p>;
 };
 
 export default TypeWriter;

@@ -1,9 +1,6 @@
 import React from "react";
-import { JustinAndrade } from "./svg";
 
 const Navbar = () => {
-  const svg = document.getElementById("JustinAndrade-dash-array-1");
-
   return (
     <div>
       <nav class="flex items-center justify-between flex-wrap text-gray-700 p-6">
