@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+
 import { Home, About, Contact, Projects, Recommendations } from "./pages";
 
 import "./App.css";
@@ -22,6 +24,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

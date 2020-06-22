@@ -54,21 +54,30 @@ const Home = () => {
           <Iconbar />
         </div>
         <div class="flex justify-center mt-5">
-          <button class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-md text-blue-500 hover:opacity-50">
+          <a
+            href="https://drive.google.com/file/d/1FbUzRKFQ6dTulL8lSy9mR9HsotigUwJ4/view"
+            target="_blank"
+            class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-lg text-blue-500 hover:opacity-50"
+          >
             Download my Resume
-          </button>
-          <button class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-md text-blue-500 hover:opacity-50">
+          </a>
+          <a
+            href="#contact"
+            class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-lg text-blue-500 hover:opacity-50"
+          >
             Contact Me
-          </button>
+          </a>
         </div>
-        <a class="flex justify-center" href="#about">
-          <Icon
-            class="mt-12 md:mt-24 transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
-            path={mdiArrowDownBold}
-            size={2}
-            color="#4299E1"
-          />
-        </a>
+        <div class="animate__animated  animate__bounce animate__infinite">
+          <a class="flex justify-center" href="#about">
+            <Icon
+              class="mt-12 md:mt-24 transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
+              path={mdiArrowDownBold}
+              size={2}
+              color="#4299E1"
+            />
+          </a>
+        </div>
       </div>
     </Box>
   );

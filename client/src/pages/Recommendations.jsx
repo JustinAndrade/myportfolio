@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "@mdi/react";
 import { mdiFormatQuoteOpenOutline } from "@mdi/js";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const myRecommendations = [
   {
@@ -37,16 +38,19 @@ const Recommendations = () => {
           return (
             <div class="rounded shadow-lg p-6 text-gray-700 h-full flex-col relative">
               <div class="mb-4 md:py-4 pl-4">
-                <Icon
-                  class="transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
-                  path={mdiFormatQuoteOpenOutline}
-                  size={1.5}
-                  color="#FFC83D"
-                />
+                <Fade triggerOnce delay={200}>
+                  <Slide triggerOnce delay={500}>
+                    <Icon
+                      class="transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
+                      path={mdiFormatQuoteOpenOutline}
+                      size={1.5}
+                      color="#FFC83D"
+                    />
+                  </Slide>
 
-                <p class="text-md italic float-right">{rec.message}</p>
+                  <p class="text-md italic float-right">{rec.message}</p>
+                </Fade>
               </div>
-
               <span class="pt-8 md:pt-0 pb-8 lg:absolute top-0 left-0 text-sm">
                 <a
                   href={rec.linkedin}

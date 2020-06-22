@@ -12,7 +12,7 @@ const Contact = () => {
         Interested in working together? Wherever you are with your idea or your
         project, I'll be happy to help. Ready to make a difference?
       </p>
-      <div class="flex flex-col lg:flex-row md:flex-row w-full justify-between text-gray-800 mb-8">
+      <div class="flex flex-col lg:flex-row md:flex-row w-full justify-between text-gray-800 mb-8 mt-8">
         <div class="flex flex-col w-1/2 text-base lg:text-xl leading-loose py-12">
           <a href="mailto:j.andrade.john@gmail.com" target="_blank">
             j.andrade.john@gmail.com
@@ -23,7 +23,7 @@ const Contact = () => {
           <p>Boston, Massachusetts</p>
           <Iconbar />
         </div>
-        <div class="w-1/2 px-8">
+        <div class="w-full sm:w-1/2 px-8">
           <h3 class="border-b-8 border-blue-500 text-xl lg:text-2xl inline-block px-0 mb-8">
             Send me a message
           </h3>
