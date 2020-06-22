@@ -50,8 +50,9 @@ const Home = () => {
           <TypeWriter />
         </span>
         <h4 class="text-xl md:text-4xl" />
-
-        <Iconbar />
+        <div class="flex justify-center mt-5">
+          <Iconbar />
+        </div>
         <div class="flex justify-center mt-5">
           <button class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-md text-blue-500 hover:opacity-50">
             Download my Resume

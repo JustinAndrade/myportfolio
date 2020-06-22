@@ -19,6 +19,7 @@ function App() {
             <About />
             <Projects />
             <Recommendations />
+            <Contact />
           </Route>
         </Switch>
       </div>

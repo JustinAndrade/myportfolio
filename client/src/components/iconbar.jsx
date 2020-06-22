@@ -1,40 +1,43 @@
 import React from "react";
-import Icon from "@mdi/react";
-import { mdiTwitter, mdiGithub, mdiLinkedin, mdiEmail } from "@mdi/js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Iconbar = () => {
   return (
-    <div class="flex justify-center mt-5">
-      <a
-        class="hover:opacity-50"
-        href="https://twitter.com/JusCoding"
-        target="_blank"
-      >
-        <Icon path={mdiTwitter} size={2} color="#1DA1F2" />
+    <div class="flex">
+      <a href="https://twitter.com/JusCoding" target="_blank">
+        <FontAwesomeIcon
+          class="p-3 mr-4 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110"
+          icon={faTwitter}
+        />
       </a>
 
-      <a
-        class="hover:opacity-50"
-        href="https://github.com/JustinAndrade"
-        target="_blank"
-      >
-        <Icon path={mdiGithub} size={2} color="black" />
+      <a href="https://github.com/JustinAndrade" target="_blank">
+        <FontAwesomeIcon
+          class="p-3 mx-4 text-2xl transition duration-500 ease-in-out  hover:text-white hover:bg-gray-900 transform hover:-translate-y-1 hover:scale-110"
+          icon={faGithub}
+          size="9x"
+        />
       </a>
 
-      <a
-        class="hover:opacity-50"
-        href="https://www.linkedin.com/in/justin-andrade/"
-        target="_blank"
-      >
-        <Icon path={mdiLinkedin} size={2} color="#0077B5" />
+      <a href="https://www.linkedin.com/in/justin-andrade/" target="_blank">
+        <FontAwesomeIcon
+          size="lg"
+          class="p-3 mx-4 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110"
+          icon={faLinkedin}
+        />
       </a>
 
-      <a
-        class="hover:opacity-50"
-        href="mailto: j.andrade.john@gmail.com"
-        target="_blank"
-      >
-        <Icon path={mdiEmail} size={2} color="lightgray" />
+      <a href="mailto: j.andrade.john@gmail.com" target="_blank">
+        <FontAwesomeIcon
+          class="p-3 mx-4 transition duration-500 ease-in-out  hover:text-white hover:bg-red-700 transform hover:-translate-y-1 hover:scale-110"
+          icon={faEnvelope}
+        />
       </a>
     </div>
   );
