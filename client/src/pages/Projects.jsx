@@ -54,24 +54,26 @@ const Projects = () => {
               </div>
 
               <div class="px-6 pb-10 ">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #SASS
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Python
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #ReactJS
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #TypeScript
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Django
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Redux
-                </span>
+                <p>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #SASS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Python
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #ReactJS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #TypeScript
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Django
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Redux
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -122,24 +124,26 @@ const Projects = () => {
               </div>
 
               <div class="px-6 pb-10 ">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #SASS
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Python
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #ReactJS
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #TypeScript
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Django
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Redux
-                </span>
+                <p>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #SASS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Python
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #ReactJS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #TypeScript
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Django
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Redux
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -186,24 +190,26 @@ const Projects = () => {
               </div>
 
               <div class="px-6 pb-10 ">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #SASS
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Python
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #ReactJS
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #TypeScript
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Django
-                </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                  #Redux
-                </span>
+                <p>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #SASS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Python
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #ReactJS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #TypeScript
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Django
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Redux
+                  </span>
+                </p>
               </div>
             </div>
           </div>
