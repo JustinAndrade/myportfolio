@@ -3,7 +3,7 @@ import Iconbar from "../components/iconbar";
 
 const Contact = () => {
   return (
-    <div class="p-8" id="contact">
+    <div class="my-8" id="contact">
       <h3 class="border-b-8 border-blue-500 text-4xl md:text-5xl inline-block mb-6">
         Let's Connect
       </h3>

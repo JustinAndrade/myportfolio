@@ -1,8 +1,29 @@
 html {
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
 
 .App {
   text-align: center;
   margin: 0 auto;
+}
+
+#myLinks {
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  display: none;
+  height: 90vh;
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#myLinks a {
+  display: block;
+  text-align: center;
+  padding: 10%;
 }

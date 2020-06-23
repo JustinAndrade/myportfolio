@@ -3,21 +3,15 @@ import { Fade } from "react-awesome-reveal";
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      class="px-4 md:px-0 lg:px-0 mt-10 flex flex-col items-center text-left"
-    >
+    <section id="projects" class="px-4 md:px-0 lg:px-0 mt-10">
       <h2 class="border-b-8 border-blue-500 text-5xl inline-block mb-6">
         Projects
       </h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center h-full">
         {/* Card Start */}
         <Fade triggerOnce>
           <div class="m-8">
-            <div
-              style={{ height: "600px" }}
-              class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            >
+            <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img
                 class="w-full h-64"
                 src="http://juscoding.com/images/myprops.png"
@@ -41,19 +35,25 @@ const Projects = () => {
                     See the Code
                   </a>
                 </div>
-                <p class="text-gray-700">
-                  <ul class="list-disc px-8 text-xs md:text-base">
-                    <li>
-                      Collaborated on front end functionality, and implemented
-                      styling design.
-                    </li>
-                    <li>Slack API integration and Auth0 implementation.</li>
-                    <li>Database structuring, and schema design.</li>
-                  </ul>
-                </p>
+                <div class="h-64">
+                  <p class="text-gray-700">
+                    <ul class="list-disc px-8 text-xs md:text-base">
+                      <li class="my-4">
+                        Collaborated on front end functionality, and implemented
+                        styling design.
+                      </li>
+                      <li class="my-4">
+                        Slack API integration and Auth0 implementation.
+                      </li>
+                      <li class="my-4">
+                        Database structuring, and schema design.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
               </div>
 
-              <div class="px-6 pb-10 absolute bottom-0">
+              <div class="px-6 pb-10 ">
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                   #SASS
                 </span>
@@ -78,10 +78,7 @@ const Projects = () => {
         </Fade>
         <Fade triggerOnce>
           <div class="m-8">
-            <div
-              style={{ height: "600px" }}
-              class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            >
+            <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img
                 class="w-full h-64"
                 src="http://juscoding.com/images/pic03.jpg"
@@ -105,21 +102,26 @@ const Projects = () => {
                     See the Code
                   </a>
                 </div>
-                <p class="text-gray-700">
-                  <ul class="list-disc px-8 text-xs md:text-base">
-                    <li>
-                      Created a user friendly design, that enables a great user
-                      experience.
-                    </li>
-                    <li>
-                      Built out entire backend, database, and authorization
-                      features.
-                    </li>
-                  </ul>
-                </p>
+                <div class="h-64">
+                  <p class="text-gray-700">
+                    <ul class="list-disc px-8 text-xs md:text-base">
+                      <li class="my-4">
+                        Created a friendly design, that enables a great user
+                        experience.
+                      </li>
+                      <li class="my-4">
+                        Built out the entire backend, database, and
+                        authorization features.
+                      </li>
+                      <li class="my-4">
+                        Implemented modals and design schema based of figma UX
+                      </li>
+                    </ul>
+                  </p>
+                </div>
               </div>
 
-              <div class="px-6 pb-10 absolute bottom-0">
+              <div class="px-6 pb-10 ">
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                   #SASS
                 </span>
@@ -144,10 +146,7 @@ const Projects = () => {
         </Fade>
         <Fade triggerOnce>
           <div class="m-8">
-            <div
-              style={{ height: "600px" }}
-              class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-            >
+            <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img
                 class="w-full h-64"
                 src="http://juscoding.com/images/legendoflambda.jpg"
@@ -171,18 +170,22 @@ const Projects = () => {
                     See the Code
                   </a>
                 </div>
-                <p class="text-gray-700">
-                  <ul class="list-disc px-8 text-xs md:text-base">
-                    <li>
-                      Completed front end application, creating the landing
-                      page, and authorization for login and registration.
-                    </li>
-                    <li>Utilized base level sprites for game visualization.</li>
-                  </ul>
-                </p>
+                <div class="h-64">
+                  <p class="text-gray-700">
+                    <ul class="list-disc px-8 text-xs md:text-base">
+                      <li class="my-4">
+                        Completed front end application, creating the landing
+                        page, and authorization for login and registration.
+                      </li>
+                      <li class="my-4">
+                        Utilized base level sprites for game visualization.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
               </div>
 
-              <div class="px-6 pb-10 absolute bottom-0">
+              <div class="px-6 pb-10 ">
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                   #SASS
                 </span>
