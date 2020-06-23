@@ -10,7 +10,7 @@ const Projects = () => {
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center h-full">
         {/* Card Start */}
         <Fade triggerOnce>
-          <div class="m-8">
+          <div class="md:m-8">
             <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img
                 class="w-full h-64"

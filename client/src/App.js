@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="App" class="container mx-auto">
+      <div className="App" class="px-4 xlg:px-0 container mx-auto">
         <Navbar />
 
         {/* Router switch to define routes */}

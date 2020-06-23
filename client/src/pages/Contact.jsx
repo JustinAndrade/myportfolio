@@ -27,7 +27,7 @@ const Contact = () => {
           <p>Boston, Massachusetts</p>
           <Iconbar />
         </div>
-        <div class="w-full sm:w-1/2 px-8">
+        <div class="w-full md:w-1/2 px-8">
           <h3 class="border-b-8 border-blue-500 text-xl lg:text-2xl inline-block px-0 mb-8">
             Send me a message
           </h3>

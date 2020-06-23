@@ -19,7 +19,7 @@ const Navbar = () => {
             style={{ fontFamily: "Arizonia, cursive" }}
             class="text-4xl font-bold hover:opacity-75"
           >
-            Justin Andrade
+            JusCoding
           </a>
           <div id="hamburger" class="mobile block lg:hidden">
             <button
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
               </svg>
             </button>
-            <div id="myLinks">
+            <div style={{ display: "none" }} id="myLinks">
               <a class="text-4xl text-gray-700" onClick={displayMenu}>
                 Home
               </a>
