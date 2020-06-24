@@ -31,7 +31,11 @@ const Contact = () => {
           <h3 class="border-b-8 border-blue-500 text-xl lg:text-2xl inline-block px-0 mb-8">
             Send me a message
           </h3>
-          <form class="w-full max-w-lg">
+          <form
+            class="w-full max-w-lg"
+            action="https://formspree.io/j.andrade.john@gmail.com"
+            method="POST"
+          >
             <div class="flex flex-wrap mb-6">
               <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
                 Name
@@ -47,10 +51,10 @@ const Contact = () => {
                 Email
               </label>
               <input
-                type="text"
+                type="email"
                 class="appearance-none block w-full bg-gray-200 text-gray border border-gray-200-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none  focus:bg-white"
                 placeholder="john.doe@gmail.com"
-                name="email"
+                name="_replyto"
               />
             </div>
             <div class="mb-6">
@@ -65,7 +69,7 @@ const Contact = () => {
                 cols="30"
                 required=""
                 row="20"
-                name="message"
+                name="text"
               ></textarea>
             </div>
             <input

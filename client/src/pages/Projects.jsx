@@ -53,10 +53,10 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div class="px-6 pb-10 ">
+              <div class="px-6 pb-10 h-40 ">
                 <p>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #SASS
+                    #Django
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                     #Python
@@ -65,13 +65,13 @@ const Projects = () => {
                     #ReactJS
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #TypeScript
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #Django
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                     #Redux
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #SASS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #TypeScript
                   </span>
                 </p>
               </div>
@@ -123,25 +123,31 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div class="px-6 pb-10 ">
+              <div class="px-6 pb-10 h-40 ">
                 <p>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #SASS
+                    #Bootstrap
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #Python
+                    #Express
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Knex
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #NodeJS
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #PostgreSQL
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                     #ReactJS
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #TypeScript
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #Django
-                  </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                     #Redux
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #SASS
                   </span>
                 </p>
               </div>
@@ -189,25 +195,34 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div class="px-6 pb-10 ">
+              <div class="px-6 pb-10 h-40 ">
                 <p>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #SASS
+                    #Auth0
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #Python
+                    #ChartJS
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #ReactJS
+                    #Express
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #TypeScript
+                    #Gatsby
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #Django
+                    #Jest
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Knex
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #Material-UI
                   </span>
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                     #Redux
+                  </span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
+                    #SlackAPI
                   </span>
                 </p>
               </div>
