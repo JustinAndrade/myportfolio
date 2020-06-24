@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      class="flex flex-col md:flex-col px-8 xlg:px-0 lg:flex-row pt-0 md:pt-10 lg:pt-10"
+      class="flex flex-col md:flex-col px-8 xlg:px-0 lg:flex-row pt-0 md:pt-10 lg:pt-10 mt-32 md:mt-0"
     >
       <div class="sm:w-100 lg:w-1/2 mb-4">
         <Slide triggerOnce>

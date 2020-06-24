@@ -37,7 +37,7 @@ const Home = () => {
       <div class="h-screen  text-center">
         <div class="flex justify-center mt-12">
           <img
-            class="rounded-full flex items-center justify-center w-40"
+            class="h-24 md:h-64 rounded-full flex items-center justify-center w-auto"
             src={avatar}
             alt="vector image of person holding rocket"
           />
