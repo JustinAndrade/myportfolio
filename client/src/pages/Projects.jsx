@@ -12,10 +12,10 @@ const Projects = () => {
         <Fade triggerOnce>
           <div class="md:m-8">
             <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-              <img
+              {/* <img
                 class="w-full h-64"
                 src="http://juscoding.com/images/myprops.png"
-              />
+              /> */}
               <div class="px-6 py-4">
                 <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-4">
                   <a
@@ -81,10 +81,10 @@ const Projects = () => {
         <Fade triggerOnce>
           <div class="m-8">
             <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-              <img
+              {/* <img
                 class="w-full h-64"
                 src="http://juscoding.com/images/pic03.jpg"
-              />
+              /> */}
               <div class="px-6 py-4">
                 <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-4">
                   <a
@@ -157,10 +157,10 @@ const Projects = () => {
         <Fade triggerOnce>
           <div class="m-8">
             <div class="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-              <img
+              {/* <img
                 class="w-full h-64"
                 src="http://juscoding.com/images/legendoflambda.jpg"
-              />
+              /> */}
               <div class="px-6 py-4">
                 <div class="flex flex-col xl:flex-row justify-center text-center xl:text xl:justify-around items-center mb-4 xl:mb-4">
                   <a
