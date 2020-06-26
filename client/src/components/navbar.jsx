@@ -64,19 +64,19 @@ const Navbar = () => {
           </div>
           <div class="hidden w-full lg:block lg:flex lg:items-center lg:w-auto lg:pr-8">
             <a
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4 hover:opacity-75"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4 hover:opacity-75 hover:text-blue-500"
               href="#about"
             >
               About
             </a>
             <a
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4 hover:opacity-75"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4 hover:opacity-75 hover:text-blue-500"
               href="/#projects"
             >
               Projects
             </a>
             <a
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4 hover:opacity-75"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4 hover:opacity-75 hover:text-blue-500"
               href="/#contact"
             >
               Contact

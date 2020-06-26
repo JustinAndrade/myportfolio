@@ -221,9 +221,6 @@ const Projects = () => {
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
                     #Redux
                   </span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-xs md:text-sm font-semibold text-gray-700 mr-2">
-                    #SlackAPI
-                  </span>
                 </p>
               </div>
             </div>
