@@ -27,3 +27,45 @@ html {
   text-align: center;
   padding: 10%;
 }
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  height: 115%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  /* transition-delay: 0.15s; */
+  transition: 0;
+}
+
+.front {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.back {
+  transform: rotateY(180deg);
+  padding-top: 60px;
+  backface-visibility: visible;
+  opacity: 0;
+}
+
+.card {
+  position: relative;
+  background: white;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.arrow {
+  cursor: pointer;
+  fill: #4299e1;
+}
+
+.arrow:hover {
+  opacity: 0.7;
+}

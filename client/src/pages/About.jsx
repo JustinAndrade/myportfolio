@@ -17,7 +17,7 @@ const About = () => {
         <Slide triggerOnce>
           <div>
             <h2 class="border-b-8 border-blue-500 text-2xl sm:text-4xl xl:text-5xl inline">
-              About me &amp; What I do
+              About me &amp; what I do
             </h2>
             <p class="my-8 text-sm md:text-base">
               I currently reside in Boston, Massachusetts. I'm a team player who

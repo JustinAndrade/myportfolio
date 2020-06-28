@@ -68,7 +68,7 @@ const Home = () => {
             Contact Me
           </a>
         </div>
-        <div class="animate__animated  animate__bounce animate__infinite">
+        <div class="animate__animated  animate__bounce animate__delay-2s animate__repeat-3">
           <a class="flex justify-center" href="#about">
             <Icon
               class="mt-12 md:mt-24 transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
