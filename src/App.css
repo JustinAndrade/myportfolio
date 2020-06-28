@@ -11,18 +11,19 @@ html {
 #myLinks {
   color: #fff;
   position: absolute;
-  top: 10%;
+  top: 1.5%;
   left: 0;
   display: none;
-  height: 90vh;
-  width: 100vw;
+  height: 100vh;
   background: #fff;
   display: flex;
   flex-direction: column;
   z-index: 1;
+  width: 100vw;
 }
 
-#myLinks a {
+#myLinks a,
+#myLinks p {
   display: block;
   text-align: center;
   padding: 10%;

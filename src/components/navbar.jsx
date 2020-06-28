@@ -36,9 +36,9 @@ const Navbar = () => {
               </svg>
             </button>
             <div style={{ display: "none" }} id="myLinks">
-              <a class="text-4xl text-gray-700" onClick={displayMenu}>
+              <p class="text-4xl text-gray-700" onClick={displayMenu}>
                 Home
-              </a>
+              </p>
               <a
                 class="text-4xl text-gray-700"
                 onClick={displayMenu}

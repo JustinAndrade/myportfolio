@@ -39,35 +39,42 @@ const Home = () => {
           <img
             class="h-24 md:h-64 rounded-full flex items-center justify-center w-auto"
             src={avatar}
-            alt="vector image of person holding rocket"
+            alt="person holding rocket"
           />
         </div>
-        <h1 class="font-extrabold text-xl md:text-5xl lg:text-6xl">
-          Hi! 👋, I'm{" "}
-          <span class="underline text-blue-500 ">Justin Andrade.</span>
-        </h1>
-        <span class="block pt-4  md:text-4xl lg:text-4xl font-normal text-center">
-          <TypeWriter />
-        </span>
-        <h4 class="text-xl md:text-4xl" />
-        <div class="flex justify-center mt-5">
-          <Iconbar />
-        </div>
-        <div class="flex justify-center mt-5">
-          <a
-            href="https://drive.google.com/file/d/1FbUzRKFQ6dTulL8lSy9mR9HsotigUwJ4/view"
-            target="_blank"
-            class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-lg text-blue-500 hover:opacity-50"
-          >
-            Download my Resume
-          </a>
-          <a
-            href="#contact"
-            class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-lg text-blue-500 hover:opacity-50"
-          >
-            Contact Me
-          </a>
-        </div>
+        <header>
+          <h1 class="font-extrabold text-xl md:text-5xl lg:text-6xl">
+            Hi!{" "}
+            <span role="img" alt="waving hi" aria-label="waving hi">
+              👋
+            </span>
+            , I'm <span class="underline text-blue-500 ">Justin Andrade.</span>
+          </h1>
+          <span class="block pt-4  md:text-4xl lg:text-4xl font-normal text-center">
+            <h4 class="text-xl md:text-4xl">
+              <TypeWriter />
+            </h4>
+          </span>
+          <div class="flex justify-center mt-5">
+            <Iconbar />
+          </div>
+          <div class="flex justify-center mt-5">
+            <a
+              href="https://drive.google.com/file/d/1FbUzRKFQ6dTulL8lSy9mR9HsotigUwJ4/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-lg text-blue-500 hover:opacity-50"
+            >
+              Download my Resume
+            </a>
+            <a
+              href="#contact"
+              class="border-2 rounded border-blue-500 py-1 px-6 mx-5 text-xs md:text-lg text-blue-500 hover:opacity-50"
+            >
+              Contact Me
+            </a>
+          </div>
+        </header>
         <div class="animate__animated  animate__bounce animate__delay-2s animate__repeat-3">
           <a class="flex justify-center" href="#about">
             <Icon

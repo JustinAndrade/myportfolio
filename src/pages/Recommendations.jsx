@@ -13,7 +13,7 @@ const myRecommendations = [
   },
   {
     name: "Brit Hemming",
-    title: "- Web Development Instructor at Lambda School",
+    title: "- Web Dev Instructor at Lambda School",
     message:
       "I worked with Justin at Lambda school as his manager during the Web26 cohort for approximately one month. Justin’s role was to manage a team of 22 team leads that were responsible for managing 8 students each. I can say that from a managers point of view Justin made my job easier and was an extremely valuable asset to the team, I never had to worry about him or any of the team leads and the with Justin in charge the cohort practically ran itself leaving me time to work on curriculum updates and other pressing issues. Justin is kind, compassionate, outspoken and professional. He provides critical feedback when needed and works hard to make sure that problems are solved quickly and efficiently",
     linkedin: "https://www.linkedin.com/in/brit-hemming-613b3551/",
@@ -51,12 +51,12 @@ const Recommendations = () => {
                   <p class="text-md italic float-right">{rec.message}</p>
                 </Fade>
               </div>
-              <span class="pt-8 md:pt-0 pb-8 lg:absolute top-0 left-0 text-sm">
+              <span class="pt-8 md:pt-0 pb-8 lg:absolute top-0 left-0 text-xs">
                 <a
                   href={rec.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="px-2 py-1 text-blue-500 font-semibold ml-4 mr-1 text-xl  transition duration-500 ease-in-out hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110"
+                  class="px-2 py-1 text-blue-500 font-semibold ml-4 text-base  transition duration-500 ease-in-out hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110"
                 >
                   {rec.name}
                 </a>
