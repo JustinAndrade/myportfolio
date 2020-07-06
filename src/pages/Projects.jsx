@@ -108,7 +108,7 @@ const Projects = () => {
                 </div>
                 <div class="flex flex-col justify-center">
                   <p class="text-gray-700">
-                    <ul class="list-disc px-8 text-xs">
+                    <ul class="list-disc px-8 text-xs ml-8">
                       <li class="my-4 text-sm">
                         Collaborated on front end functionality, and implemented
                         styling design.
@@ -218,7 +218,7 @@ const Projects = () => {
 
                 <div class="flex flex-col justify-center">
                   <p class="text-gray-700">
-                    <ul class="list-disc px-8 text-xs">
+                    <ul class="list-disc px-8 text-xs ml-8">
                       <li class="my-4 text-sm">
                         Created a friendly design, that enables a great user
                         experience.
@@ -330,7 +330,7 @@ const Projects = () => {
                 </div>
                 <div class="flex flex-col justify-center">
                   <p class="text-gray-700">
-                    <ul class="list-disc px-8 text-xs">
+                    <ul class="list-disc px-8 text-xs ml-8">
                       <li class="my-4 text-sm">
                         Completed front end application, creating the landing
                         page, and authorization for login and registration.
@@ -430,7 +430,7 @@ const Projects = () => {
                 </div>
                 <div class="flex flex-col justify-center">
                   <p class="text-gray-700">
-                    <ul class="list-disc px-8 text-xs">
+                    <ul class="list-disc px-8 text-xs ml-8">
                       <li class="my-4 text-sm">
                         Optimized design and layout for landing page and user
                         flow.
