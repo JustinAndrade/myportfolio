@@ -44,7 +44,7 @@ const Projects = () => {
                     href="https://mypropsplus.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="block text-blue-500  font-bold text-3xl  mb-2 hover:opacity-75"
+                    class="block text-blue-500  font-bold text-4xl  mb-2 hover:opacity-75"
                   >
                     MyPropsPlus
                   </a>
@@ -146,7 +146,7 @@ const Projects = () => {
                     href="https://thebookr.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="block text-blue-500  font-bold text-2xl  mb-2 hover:opacity-75"
+                    class="block text-blue-500  font-bold text-4xl  mb-2 hover:opacity-75"
                   >
                     Bookr
                   </a>
@@ -261,7 +261,7 @@ const Projects = () => {
                     href="https://legend-of-lambda.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="block text-blue-500  font-bold text-xl  mb-2 hover:opacity-75"
+                    class="block text-blue-500  font-bold text-4xl  mb-2 hover:opacity-75"
                   >
                     Legend of Lambda
                   </a>
@@ -369,7 +369,7 @@ const Projects = () => {
                     href="https://jadegarden.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="block text-blue-500  font-bold text-xl  mb-2 hover:opacity-75"
+                    class="block text-blue-500  font-bold text-4xl mb-2 hover:opacity-75"
                   >
                     Jade Garden
                   </a>
