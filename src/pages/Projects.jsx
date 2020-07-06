@@ -49,7 +49,7 @@ const Projects = () => {
                     MyPropsPlus
                   </a>
                   <a
-                    href="https://github.com/props-plus"
+                    href="https://github.com/props-plus/Frontend"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
@@ -266,7 +266,7 @@ const Projects = () => {
                     Legend of Lambda
                   </a>
                   <a
-                    href="https://github.com/LegendOfLambda"
+                    href="https://github.com/LegendOfLambda/LoL-frontend/tree/master/lol-frontend"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
