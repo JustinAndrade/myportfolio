@@ -33,7 +33,6 @@ html {
 .back {
   backface-visibility: hidden;
   position: absolute;
-  height: 115%;
   width: 100%;
   top: 0;
   left: 0;

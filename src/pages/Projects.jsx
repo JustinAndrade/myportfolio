@@ -39,7 +39,7 @@ const Projects = () => {
           <div class="md:m-8" style={{ height: "510px" }}>
             <div class="card card-1 rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <div class="front front-1">
-                <div class="flex flex-col mb-12 md:mb-0 text-left xl:text xl:justify-around mb-4 xl:mb-4">
+                <div class="flex flex-col mb-12 md:mb-0 text-center xl:text xl:justify-center mb-4 xl:mb-4">
                   <a
                     href="https://mypropsplus.com/"
                     target="_blank"
@@ -48,14 +48,16 @@ const Projects = () => {
                   >
                     MyPropsPlus
                   </a>
-                  <a
-                    href="https://github.com/props-plus/Frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
-                  >
-                    See the Code
-                  </a>
+                  <div>
+                    <a
+                      href="https://github.com/props-plus/Frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
+                    >
+                      See the Code
+                    </a>
+                  </div>
                 </div>
                 <div class="px-2 py-4 h-32">
                   <p class="text-gray-700 text-xl">
@@ -63,30 +65,36 @@ const Projects = () => {
                     acknowledgements they have received or sent.
                   </p>
                 </div>
-                <div class="pt-8 h-full">
+                <div class="flex flex-col justify-center">
                   <p>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Django
+                      #Auth0
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Python
+                      #ChartJS
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #ReactJS
+                      #Express
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                      #Gatsby
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                      #Jest
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                      #Knex
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                      #Material-UI
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
                       #Redux
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #SASS
-                    </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #TypeScript
-                    </span>
                   </p>
                 </div>
               </div>
-              <div class="back back-1">
+              <div class="back back-1 h-full">
                 <div
                   style={{
                     width: "100%",
@@ -100,13 +108,13 @@ const Projects = () => {
                     title="Demo of PropsPlus Website"
                     src="https://giphy.com/embed/TgmsEoGLQzQuEvDVMK"
                     width="100%"
-                    height="100%"
+                    height="80%"
                     style={{ position: "absolute" }}
                     frameBorder="0"
                     allowFullScreen
                   ></iframe>
                 </div>
-                <div class="flex flex-col justify-center">
+                <div class="absolute bottom-0 pb-12">
                   <p class="text-gray-700">
                     <ul class="list-disc px-8 text-xs ml-8">
                       <li class="my-4 text-sm">
@@ -141,7 +149,7 @@ const Projects = () => {
           <div class="md:m-8" style={{ height: "500px" }}>
             <div class=" card card-2 rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <div class="front front-2">
-                <div class="flex flex-col mb-12 md:mb-0 text-left xl:text xl:justify-around mb-4 xl:mb-4">
+                <div class="flex flex-col mb-12 md:mb-0 text-center xl:text xl:justify-center mb-4 xl:mb-4">
                   <a
                     href="https://thebookr.netlify.app/"
                     target="_blank"
@@ -150,14 +158,16 @@ const Projects = () => {
                   >
                     Bookr
                   </a>
-                  <a
-                    href="https://github.com/the-bookr-team"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
-                  >
-                    See the Code
-                  </a>
+                  <div>
+                    <a
+                      href="https://github.com/the-bookr-team"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
+                    >
+                      See the Code
+                    </a>
+                  </div>
                 </div>
                 <div class="px-2 py-4 h-32">
                   <p class="text-gray-700 text-xl">
@@ -209,7 +219,7 @@ const Projects = () => {
                     title="Bookr Demo Display"
                     src="https://giphy.com/embed/TiPUqyAtB1pxVC9LPe"
                     width="100%"
-                    height="100%"
+                    height="90%"
                     style={{ position: "absolute" }}
                     frameBorder="0"
                     allowFullScreen
@@ -256,7 +266,7 @@ const Projects = () => {
                 src="http://juscoding.com/images/legendoflambda.jpg"
               /> */}
               <div class="front front-3">
-                <div class="flex flex-col mb-12 md:mb-0 text-left xl:text xl:justify-around mb-4 xl:mb-4">
+                <div class="flex flex-col mb-12 md:mb-0 text-center xl:text xl:justify-center mb-4 xl:mb-4">
                   <a
                     href="https://legend-of-lambda.netlify.app/"
                     target="_blank"
@@ -265,14 +275,16 @@ const Projects = () => {
                   >
                     Legend of Lambda
                   </a>
-                  <a
-                    href="https://github.com/LegendOfLambda/LoL-frontend/tree/master/lol-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
-                  >
-                    See the Code
-                  </a>
+                  <div>
+                    <a
+                      href="https://github.com/LegendOfLambda/LoL-frontend/tree/master/lol-frontend"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
+                    >
+                      See the Code
+                    </a>
+                  </div>
                 </div>
                 <div class="px-2 py-4 h-32">
                   <p class="text-gray-700 text-xl">
@@ -282,28 +294,22 @@ const Projects = () => {
                 <div class="pt-8 h-full">
                   <p>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Auth0
+                      #Django
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #ChartJS
+                      #Python
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Express
-                    </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Gatsby
-                    </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Jest
-                    </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Knex
-                    </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                      #Material-UI
+                      #ReactJS
                     </span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
                       #Redux
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                      #SASS
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                      #TypeScript
                     </span>
                   </p>
                 </div>
@@ -322,7 +328,7 @@ const Projects = () => {
                     title="Legend of Lambda Demo Display"
                     src="https://giphy.com/embed/hSRkqjJHYKTSduawJf"
                     width="100%"
-                    height="100%"
+                    height="90%"
                     style={{ position: "absolute" }}
                     frameBorder="0"
                     allowFullScreen
@@ -364,7 +370,7 @@ const Projects = () => {
                 src="http://juscoding.com/images/legendoflambda.jpg"
               /> */}
               <div class="front front-4">
-                <div class="flex flex-col mb-12 md:mb-0 text-left xl:text xl:justify-around mb-4 xl:mb-4">
+                <div class="flex flex-col mb-12 md:mb-0 text-center xl:text xl:justify-center mb-4 xl:mb-4">
                   <a
                     href="https://jadegarden.vercel.app/"
                     target="_blank"
@@ -373,14 +379,16 @@ const Projects = () => {
                   >
                     Jade Garden
                   </a>
-                  <a
-                    href="https://github.com/JustinAndrade/ramen-shop"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 w-32 text-center"
-                  >
-                    See the Code
-                  </a>
+                  <div>
+                    <a
+                      href="https://github.com/JustinAndrade/ramen-shop"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="rounded bg-red-500 text-xs text-gray-200 font-bold mt-1 py-1 px-2 h-6 hover:opacity-75 text-center"
+                    >
+                      See the Code
+                    </a>
+                  </div>
                 </div>
                 <div class="px-2 py-4 h-32">
                   <p class="text-gray-700 text-xl">
@@ -422,7 +430,7 @@ const Projects = () => {
                     title="Jade Garden Demo Display"
                     src="https://giphy.com/embed/JsDghkoqtXvvP9xTGM"
                     width="100%"
-                    height="100%"
+                    height="90%"
                     style={{ position: "absolute" }}
                     frameBorder="0"
                     allowFullScreen

@@ -2,6 +2,8 @@ import React from "react";
 import Icon from "@mdi/react";
 import { mdiFormatQuoteOpenOutline } from "@mdi/js";
 import { Fade, Slide } from "react-awesome-reveal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const myRecommendations = [
   {
@@ -30,9 +32,20 @@ const myRecommendations = [
 const Recommendations = () => {
   return (
     <div class="my-12">
-      <h3 class="border-b-8 border-blue-500 text-4xl md:text-5xl inline-block mb-6">
-        Recommendations
-      </h3>
+      <div class="flex self-center items-center">
+        <h3 class="border-b-8 border-blue-500 text-4xl md:text-5xl inline-block my-6">
+          Recommendations
+        </h3>
+        <span class="ml-4">
+          powered by{" "}
+          <FontAwesomeIcon
+            style={{ height: "24px", display: "inline", marginRight: "12px" }}
+            size="sm"
+            class="text-blue-700"
+            icon={faLinkedin}
+          />
+        </span>
+      </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-4">
         {myRecommendations.map((rec) => {
           return (
