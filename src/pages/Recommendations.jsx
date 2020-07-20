@@ -39,7 +39,12 @@ const Recommendations = () => {
         <span class="ml-4">
           powered by{" "}
           <FontAwesomeIcon
-            style={{ height: "24px", display: "inline", marginRight: "12px" }}
+            style={{
+              height: "24px",
+              width: "24px",
+              display: "inline",
+              marginRight: "12px",
+            }}
             size="sm"
             class="text-blue-700"
             icon={faLinkedin}
@@ -69,8 +74,19 @@ const Recommendations = () => {
                   href={rec.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="px-2 py-1 text-blue-500 font-semibold ml-4 text-base  transition duration-500 ease-in-out hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110"
+                  class="px-2 py-1 text-blue-700 font-semibold ml-4 text-base hover:text-opacity-75"
                 >
+                  <FontAwesomeIcon
+                    style={{
+                      height: "24px",
+                      width: "24px",
+                      display: "inline",
+                      marginRight: "8px",
+                    }}
+                    size="sm"
+                    class="text-blue-700"
+                    icon={faLinkedin}
+                  />
                   {rec.name}
                 </a>
                 {rec.title}
