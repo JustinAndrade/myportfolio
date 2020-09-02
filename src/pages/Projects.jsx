@@ -121,7 +121,9 @@ const Projects = () => {
               }}
             >
               <Fade triggerOnce>
-                <img src={PPstatic} alt="PropsPlus preview" />
+                <a href="https://mypropsplus.com/" target="_blank">
+                  <img src={PPstatic} alt="PropsPlus preview" />
+                </a>
               </Fade>
               {/* <iframe
                 class=" shadow-lg border-b-4 mb-4 border-blue-500"
@@ -219,7 +221,9 @@ const Projects = () => {
               }}
             >
               <Fade triggerOnce>
-                <img src={BookrStatic} alt="Bookr preview" />
+                <a href="https://thebookr.netlify.app/" target="_blank">
+                  <img src={BookrStatic} alt="Bookr preview" />
+                </a>
               </Fade>
               {/* <iframe
                 class="shadow-lg border-b-4 mb-4 border-blue-500"
@@ -306,7 +310,9 @@ const Projects = () => {
               }}
             >
               <Fade triggerOnce>
-                <img src={LolStatic} alt="Legend of Lambda preview" />
+                <a href="https://legend-of-lambda.netlify.app/" target="_blank">
+                  <img src={LolStatic} alt="Legend of Lambda preview" />
+                </a>
               </Fade>
               {/* <iframe
                 class=" shadow-lg border-b-4 mb-4 border-blue-500"
@@ -391,7 +397,9 @@ const Projects = () => {
               }}
             >
               <Fade triggerOnce>
-                <img src={JadeStatic} alt="Jade Garden preview" />
+                <a href="https://jadegarden.vercel.app/" target="_blank">
+                  <img src={JadeStatic} alt="Jade Garden preview" />
+                </a>
               </Fade>
               {/* <iframe
                 class=" shadow-lg border-b-4 mb-4 border-blue-500"
