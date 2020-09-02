@@ -70,3 +70,16 @@ html {
   cursor: pointer;
   opacity: 0.7;
 }
+
+.play-GIF-on-hover-pp {
+  width: auto;
+  height: 400px;
+  background-image: url("./assets/img/props-plus-static.png");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.play-GIF-on-hover-pp:hover {
+  background-image: url("https://media.giphy.com/media/TgmsEoGLQzQuEvDVMK/source.mp4");
+}
