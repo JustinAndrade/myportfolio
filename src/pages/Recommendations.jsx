@@ -56,18 +56,16 @@ const Recommendations = () => {
           return (
             <div class="rounded shadow-lg p-6 text-gray-700 h-full flex-col relative">
               <div class="mb-4 md:py-4 pl-4">
-                <Fade triggerOnce delay={200}>
-                  <Slide triggerOnce delay={500}>
-                    <Icon
-                      class="transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
-                      path={mdiFormatQuoteOpenOutline}
-                      size={1.5}
-                      color="#FFC83D"
-                    />
-                  </Slide>
+                <Slide triggerOnce delay={500}>
+                  <Icon
+                    class="transition duration-500 ease-in-out transform focus:skew-x-12 hover:scale-150 cursor-pointer"
+                    path={mdiFormatQuoteOpenOutline}
+                    size={1.5}
+                    color="#FFC83D"
+                  />
+                </Slide>
 
-                  <p class="text-md italic float-right">{rec.message}</p>
-                </Fade>
+                <p class="text-md italic float-right">{rec.message}</p>
               </div>
               <span class="pt-8 md:pt-0 pb-8 lg:absolute top-0 left-0 text-xs">
                 <a

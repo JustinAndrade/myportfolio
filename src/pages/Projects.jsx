@@ -42,7 +42,7 @@ const Projects = () => {
       <div class="display flex-col">
         <div class="display flex lg:my-24">
           <div class="w-100 lg:w-1/2 lg:mr-12">
-            <Fade triggerOnce>
+            <Fade triggerOnce delay={500}>
               <div class="px-2 py-4 h-32">
                 <a
                   href="https://mypropsplus.com/"
@@ -120,10 +120,8 @@ const Projects = () => {
                 position: "relative",
               }}
             >
-              <Fade triggerOnce>
-                <a href="https://mypropsplus.com/" target="_blank">
-                  <img src={PPstatic} alt="PropsPlus preview" />
-                </a>
+              <Fade triggerOnce delay={1000}>
+                <img src={PPstatic} alt="PropsPlus preview" />
               </Fade>
               {/* <iframe
                 class=" shadow-lg border-b-4 mb-4 border-blue-500"
@@ -141,7 +139,7 @@ const Projects = () => {
 
         <div class="display flex flex-row-reverse my-24">
           <div class="w-100 lg:w-1/2 lg:mr-12">
-            <Fade triggerOnce>
+            <Fade triggerOnce delay={500}>
               <div class="px-2 py-4 h-32">
                 <a
                   href="https://thebookr.netlify.app/"
@@ -220,10 +218,8 @@ const Projects = () => {
                 position: "relative",
               }}
             >
-              <Fade triggerOnce>
-                <a href="https://thebookr.netlify.app/" target="_blank">
-                  <img src={BookrStatic} alt="Bookr preview" />
-                </a>
+              <Fade triggerOnce delay={1000}>
+                <img src={BookrStatic} alt="Bookr preview" />
               </Fade>
               {/* <iframe
                 class="shadow-lg border-b-4 mb-4 border-blue-500"
@@ -241,7 +237,7 @@ const Projects = () => {
 
         <div class="display flex my-24">
           <div class="w-100 lg:w-1/2 lg:mr-12">
-            <Fade triggerOnce>
+            <Fade triggerOnce delay={500}>
               <div class="px-2 py-4 h-32">
                 <a
                   href="https://legend-of-lambda.netlify.app/"
@@ -309,10 +305,8 @@ const Projects = () => {
                 position: "relative",
               }}
             >
-              <Fade triggerOnce>
-                <a href="https://legend-of-lambda.netlify.app/" target="_blank">
-                  <img src={LolStatic} alt="Legend of Lambda preview" />
-                </a>
+              <Fade triggerOnce delay={1000}>
+                <img src={LolStatic} alt="Legend of Lambda preview" />
               </Fade>
               {/* <iframe
                 class=" shadow-lg border-b-4 mb-4 border-blue-500"
@@ -330,7 +324,7 @@ const Projects = () => {
 
         <div class="display flex flex-row-reverse my-24">
           <div class="w-100 lg:w-1/2 lg:mr-12">
-            <Fade triggerOnce>
+            <Fade triggerOnce delay={500}>
               <div class="px-2 py-4 h-32">
                 <a
                   href="https://jadegarden.vercel.app/"
@@ -396,10 +390,8 @@ const Projects = () => {
                 position: "relative",
               }}
             >
-              <Fade triggerOnce>
-                <a href="https://jadegarden.vercel.app/" target="_blank">
-                  <img src={JadeStatic} alt="Jade Garden preview" />
-                </a>
+              <Fade triggerOnce delay={1000}>
+                <img src={JadeStatic} alt="Jade Garden preview" />
               </Fade>
               {/* <iframe
                 class=" shadow-lg border-b-4 mb-4 border-blue-500"
@@ -415,7 +407,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* <Fade triggerOnce>
+        {/* <Fade triggerOnce delay={500}>
           <div class="md:m-8" style={{ height: "510px" }}>
             <div class="card card-1 rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <div class="front front-1">
@@ -546,7 +538,7 @@ const Projects = () => {
 
 
 
-        <Fade triggerOnce>
+        <Fade triggerOnce delay={500}>
           <div class="md:m-8" style={{ height: "500px" }}>
             <div class=" card card-2 rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <div class="front front-2">
@@ -670,7 +662,7 @@ const Projects = () => {
 
 
 
-        <Fade triggerOnce>
+        <Fade triggerOnce delay={500}>
           <div class="md:m-8" style={{ height: "500px" }}>
             <div class=" card card-3 rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <div class="front front-3">
@@ -781,7 +773,7 @@ const Projects = () => {
 
 
 
-        <Fade triggerOnce>
+        <Fade triggerOnce delay={500}>
           <div class="md:m-8" style={{ height: "500px" }}>
             <div class=" card card-4 rounded overflow-hidden shadow-lg min-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <div class="front front-4">
