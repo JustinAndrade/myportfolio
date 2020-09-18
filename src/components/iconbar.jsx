@@ -29,7 +29,6 @@ const Iconbar = () => {
         <FontAwesomeIcon
           class="p-3 mx-4 text-2xl transition duration-500 ease-in-out  hover:text-white hover:bg-gray-900 transform hover:-translate-y-1 hover:scale-110"
           icon={faGithub}
-          size="9x"
         />
       </a>
 
@@ -39,7 +38,6 @@ const Iconbar = () => {
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
-          size="lg"
           class="p-3 mx-4 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110"
           icon={faLinkedin}
         />
